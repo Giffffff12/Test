@@ -42,7 +42,7 @@ soft_drink_map = {
 }
 
 # Muat model
-model = joblib.load('logistic_jlib')
+model = joblib.load('Gender_Prediction_Logistic_Regression_Model.pkl')
 
 # Tampilkan judul aplikasi
 st.title('Gender Prediction App')
